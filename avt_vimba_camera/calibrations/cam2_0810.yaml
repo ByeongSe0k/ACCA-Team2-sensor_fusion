@@ -1,0 +1,105 @@
+image_width: 640
+image_height: 480
+camera_name: camera
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [544.709452, 0.000000, 319.630442,
+0.000000, 545.643004, 226.091122,
+0.000000, 0.000000, 1.000000]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.169011, -0.293638, -0.020268, -0.003555, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.000000, 0.000000, 0.000000,
+0.000000,1.000000, 0.000000,
+0.000000, 0.000000, 1.000000]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [561.973267, 0.000000, 317.476776, 0.000000,
+0.000000, 559.101257, 218.607477, 0.000000,
+0.000000, 0.000000, 1.000000, 0.000000]
+
+
+
+
+
+
+# image_width: 640
+# image_height: 480
+# camera_name: head_camera
+# camera_matrix:
+#   rows: 3
+#   cols: 3
+#   data: [473.013939, 0.0, 360.348958, 0.0, 468.85837, 265.133062, 0.0, 0.0, 1.0]
+# distortion_model: plumb_bob
+# distortion_coefficients:
+#   rows: 1
+#   cols: 5
+#   data: [-0.027721, 0.076373, -0.008975, 0.020684, 0.0]
+# rectification_matrix:
+#   rows: 3
+#   cols: 3
+#   data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+# projection_matrix:
+#   rows: 3
+#   cols: 4
+#   data: [483.308533, 0.0, 371.814778, 0.0, 0.0, 484.859985, 260.335161, 0.0, 0.0, 0.0, 1.0, 0.0]
+
+
+# header: 
+#   seq: 5356
+#   stamp: 
+#     secs: 1655840411
+#     nsecs: 189980939
+#   frame_id: "usb_cam"
+# height: 480
+# width: 640
+# distortion_model: "plumb_bob"
+# D: [-0.027721, 0.076373, -0.008975, 0.020684, 0.0]
+# K: [473.013939, 0.0, 360.348958, 0.0, 468.85837, 265.133062, 0.0, 0.0, 1.0]
+# R: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+# P: [483.308533, 0.0, 371.814778, 0.0, 0.0, 484.859985, 260.335161, 0.0, 0.0, 0.0, 1.0, 0.0]
+# binning_x: 0
+# binning_y: 0
+# roi: 
+#   x_offset: 0
+#   y_offset: 0
+#   height: 0
+#   width: 0
+#   do_rectify: False
+# ---
+
+
+# image_width: 1280
+# image_height: 720
+# camera_name: head_camera
+# camera_matrix:
+#   rows: 3
+#   cols: 3
+#   data: [746.283639, 0, 629.870177,
+# 0, 745.989369, 407.997170,
+# 0, 0, 1]
+# distortion_model: plumb_bob
+# distortion_coefficients:
+#   rows: 1
+#   cols: 5
+#   data: [0.032541, -0.088117, 0.005930, -0.000166, 0]
+# rectification_matrix:
+#   rows: 3
+#   cols: 3
+#   data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+# projection_matrix:
+#   rows: 3
+#   cols: 4
+#   data: [725.459778, 0, 627.474155, 0,
+# 0, 746.047913, 411.348767, 0,/
+# 0, 0, 1, 0]
+
+
+
