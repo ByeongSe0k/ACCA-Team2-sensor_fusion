@@ -6,9 +6,12 @@ import math as m
 import numpy as np
 
 rospy.init_node("matrix",anonymous=True)
-roll = -0.681
-pitch = 3.47
-yaw = -1.496
+# roll = -0.681
+# pitch = 3.47
+# yaw = -1.496
+roll = 0.39
+pitch = -4.364
+yaw = 0
 #yaw = -1.5
 #yaw = -3.299
 matrix = euler_matrix(m.radians(roll),m.radians(pitch),m.radians(yaw),'sxyz')

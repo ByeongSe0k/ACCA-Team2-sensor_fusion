@@ -408,7 +408,7 @@ int main(int argc, char** argv)
   ros::init(argc, argv, "pontCloudOntImage");
   ros::NodeHandle nh;  
   
-
+  cout << "11111111111111111111";
   /// Load Parameters
 
   nh.getParam("/maxlen", maxlen);
